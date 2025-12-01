@@ -23,7 +23,7 @@ async def on_ready():
     # Schedule daily reminder at 6 PM IST (or 23:45 as per user edit)
     # Using 18:00 as per spec, but user changed it to 23:45 manually.
     # I will respect the user's manual change to 23:45.
-    trigger = CronTrigger(hour=23, minute=45, timezone=pytz.timezone('Asia/Kolkata'))
+    trigger = CronTrigger(hour=18, minute=0, timezone=pytz.timezone('Asia/Kolkata'))
     
     # We need to access the daily_reminder method from the Cog instance
     tracker_cog = bot.get_cog('Tracker')
