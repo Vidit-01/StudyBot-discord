@@ -1,0 +1,8 @@
+discord.py
+apscheduler
+matplotlib
+pandas
+python-dateutil
+notion-client
+pytz
+python-dotenv
